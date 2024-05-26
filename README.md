@@ -35,7 +35,7 @@ This endpoint is composed by the next endpoints:
 
 - DELETE /classes/deleteClass/{id}
   
-  In this endpoint you will delete an specific class. You need to specific the "id", you can find the id if you do the "GET /classes/checkClasses" or checking the file "classes.txt".
+  In this endpoint you will delete an specific class.
 
 - PUT /classes/updateClass/{id}
 
