@@ -1,0 +1,5 @@
+{"id":"41f71403-7b20-446b-9e66-5b2c9852cc9d","className":"moasdk","start_date":"2024-05-10","end_date":"2024-05-15","capacity":10}
+{"id":"d1e39073-ee23-49e0-901e-af1421de9d20","className":"moasdk","start_date":"2024-05-04","end_date":"2024-05-09","capacity":10}
+{"id":"d7dac20d-ea99-4dd3-a159-353ff62ea358","className":"moasdk","start_date":"2024-05-20","end_date":"2024-05-22","capacity":10}
+{"id":"fe1a6d29-61f8-4c2f-8aa0-441536e752e2","className":"asdf","start_date":"2024-05-02","end_date":"2024-05-03","capacity":10}
+{"id":"1653dd52-b884-4a75-86b9-14b96f21edef","className":"moasdk","start_date":"2024-06-02","end_date":"2024-06-03","capacity":10}
