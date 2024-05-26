@@ -41,7 +41,7 @@ This endpoint is composed by the next endpoints:
 
   In this endpoint you will update an specific class.
 
-  ## /bookings endpoints
+## /bookings endpoints
   In this endpoint an user can book a class for an specific date if the class exists.
 
   This endpoint is composed by the next endpoints:
