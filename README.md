@@ -35,11 +35,20 @@ This endpoint is composed by the next endpoints:
 
 - DELETE /classes/deleteClass/{id}
   
-  In this endpoint you will delete an specific class.
+  In this endpoint you will delete an specific class. You need to specific the "id", you can find the id if you do the "GET /classes/checkClasses" or checking the file "classes.txt".
 
 - PUT /classes/updateClass/{id}
 
-  In this endpoint you will update an specific class.
+  In this endpoint you will update an specific class and a JSON body with the data you want to update.
+  ```
+    {
+      "className" : "acrogym", // Name of the class
+      "start_date" : "2024-06-02", // Start Date of the class
+      "end_date" : "2024-06-03", // End date of the class
+      "capacity" : 10 // Maximum capacity for a class per day
+    }
+  ```
+  
 
 ## /bookings endpoints
   In this endpoint an user can book a class for an specific date if the class exists.
@@ -50,7 +59,7 @@ This endpoint is composed by the next endpoints:
   You can book a class sending the next JSON structure body
   ```
   {
-    "name": "mario", // Name of the user that wants to book a class
+    "name": "Mario", // Name of the user that wants to book a class
     "bookingDate": "2024-05-10" // Date the user wants to book a class
   }
   ```
@@ -68,4 +77,10 @@ This endpoint is composed by the next endpoints:
 
 - PUT /bookings/updateBooking/{id}
 
-  In this endpoint you will update an specific booking.
+  In this endpoint you will update an specific booking and a JSON body with the data you want to update.
+  ```
+  {
+    "name": "Carlos", // Name of the user that wants to book a class
+    "bookingDate": "2024-05-10" // Date the user wants to book a class
+  }
+  ```
